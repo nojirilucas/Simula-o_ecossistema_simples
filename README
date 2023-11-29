@@ -1,0 +1,2 @@
+Paralelo-> mpicc -o tpmpi tpmpi.c -fopenmp e mpirun -np 1 ./tpmpi
+Sequencial-> gcc sequencial.c -o sequencial e ./sequencial
